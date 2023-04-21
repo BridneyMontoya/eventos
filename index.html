@@ -38,11 +38,11 @@
 </div>
 
   <main>
-    <h1 class="text-black text-xl font-bold p-3">Póximos eventos</h1>
+    <h1 class="text-black text-xl font-bold p-4">Póximos eventos</h1>
     
-<div id="indicators-carousel" class="relative w-full" data-carousel="slide">
+<div id="indicators-carousel" class="relative max-w-sm mx-auto" data-carousel="slide">
   <!-- Carousel wrapper -->
-  <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+  <div class="relative h-56 overflow-hidden rounded-sm md:h-96">
        <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
           <img src="/src/images/carrusel.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
@@ -64,6 +64,8 @@
           <img src="/src/images/carrusel5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
           
       </div>
+
+      
 
   </div>
   <!-- Slider indicators -->
@@ -87,30 +89,40 @@
           <span class="sr-only">Next</span>
       </span>
   </button>
+  
 </div>
 
 <div class="text-black text-xl font-bold p-4">
   <h2>Compra Paquetes especiales para ti</h2>
 </div>
 
-<div class="max-w-full xl:h-60 p-6 bg-pink-700 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-
-  <a href="#">
-      <h5 class="mb-2 text-2xl font-semibold tracking-tight text-white dark:text-white">Pop Music Concert</h5>
-
+<div class="max-w-sm mx-auto xl:h-60 p-6 bg-pink-600 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  <div class="flex">
+    <a href="#">
+      <h5 class="mb-6 text-xl  tracking-tight text-white dark:text-white">Pop Music Concert</h5>
   </a>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-white relative left-36">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z" />
+  </svg>
+  
+  </div>
+ 
 
-  <p class="mb-3 xl:text-xl  font-normal text-white dark:text-gray-400">Disfruta con toda tu familia en el evento mas esperado</p>
-  <a href="#" class=" relative left-60  xl:left-3/4 inline-flex items-center px-3 mb-3 py-2  text-sm font-medium text-center text-black bg-blue-50 rounded-lg hover:bg-pink-300 focus:ring-4 focus:outline-none focus:ring-pink-700 dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800">
-    Comprar ahora 
-</a>
+  <div class="mb-3 xl:text-xl  font-normal  text-white dark:text-gray-400 flex">
+    <p>Disfruta con toda tu <br> familia en el evento mas <br> esperado del año</p>
+    <a href="#" class=" relative left-6 top-5 inline-flex items-center px-6 mb-1 text-black bg-white rounded-lg hover:bg-pink-300 focus:ring-4 focus:outline-none focus:ring-pink-700 dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800">
+      Comprar ahora 
+  </a>
+  </div>
 </div>
+
+
 
 <div class="text-black text-xl font-bold p-4">
   <h2>Todos los eventos</h2>
 </div>
 
-<div class="flex text-center pt-6 xl:justify-center">
+<div class="flex text-center pt-6 xl:justify-center max-w-sm mx-auto">
   <div class="  xl:w-60 xl:h-60 w-28 h-24  bg-pink-700 border border-gray-200 rounded-lg  mr-9 xl:mr-48 p-4">
     <h5 class="font-semibold xl:text-2xl">Conciertos</h5>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 xl:w-16 xl:h-16 text-white relative top-3 left-6 xl:top-10 xl:left-16">
@@ -121,9 +133,11 @@
   
   <div class=" xl:w-60 xl:h-60  w-28 h-24 border border-gray-200 rounded-lg mr-9 xl:mr-48 p-4  ">
     <h5 class="text-gray-500 font-semibold  xl:text-2xl">Cenas</h5>
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 xl:w-16 xl:h-16 text-gray-500 relative top-3 left-6 xl:top-10 xl:left-16">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 xl:w-16 xl:h-16 text-gray-500 relative top-3 left-4 xl:top-10 xl:left-16">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      <path stroke-linecap="round" stroke-linejoin="round" d="M9 9.563C9 9.252 9.252 9 9.563 9h4.874c.311 0 .563.252.563.563v4.874c0 .311-.252.563-.563.563H9.564A.562.562 0 019 14.437V9.564z" />
     </svg>
+    
     
   </div>
   
